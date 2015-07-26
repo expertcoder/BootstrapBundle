@@ -10,6 +10,7 @@
 
     <services>
         <service id="assetic.filter.bootstrap_variables" class="%realtyhub_bootstrap.variables_filter.class%" >
+            <argument type="service" id="service_container" />
             <tag name="assetic.filter" alias="bootstrap_variables"></tag>
         </service>
     </services>

@@ -35,7 +35,9 @@ public function registerBundles()
 config.yml
 
 ``` yml
-    TODO
+    realtyhub_bootstrap:
+        variables_less_path: "/path/to/variables.less"
+
 ```
 
 
@@ -94,3 +96,8 @@ now inside of Twig file, you wont need to specify the filters and can try someth
         <link rel="stylesheet" href="{{ asset_url }}" />
     {% endstylesheets %}
 ```
+
+# TODO
+
+* Better intergration with braincrafted bootstrap bundle. Is it possible to automattically determine
+the path to variables.less and remove the need for the configuration?

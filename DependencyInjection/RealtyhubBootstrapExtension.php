@@ -22,7 +22,17 @@ class RealtyhubBootstrapExtension extends Extension
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
 
+        $container->setParameter('realtyhub_bootstrap.variables_less_path', $config['variables_less_path']);
+
         $loader = new Loader\XmlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.xml');
     }
+
+
+
+
+
+
+
+
 }
