@@ -1,0 +1,21 @@
+{
+    "name": "realtyhub/bootstrap-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony2 Bundle with helpful tools relating to Twitter Bootstrap",
+    "homepage": "https://github.com/realtyhub/InvoicePainterBundle",
+    "authors": [
+        {
+            "name": "Samual Anthony",
+            "email": "sam@realtyhub.com.au"
+        }
+    ],
+    "require": {
+        "php":                      ">=5.3.3",
+        "symfony/framework-bundle": "~2.3",
+        "symfony/twig-bundle":      "~2.3",
+        "slik/dompdf-bundle":       "dev-master"
+    },
+    "autoload": {
+        "psr-4": { "Realtyhub\\BootstrapBundle\\": "" }
+    }
+}
