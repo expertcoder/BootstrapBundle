@@ -79,7 +79,7 @@ config.yml
 assetic:
     filters:
         bootstrap_variables:
-            resource: 'workaround-hack.xml' #workaround for assetic to accept our filter.
+            resource: 'assetic.xml' #workaround for assetic to accept our filter.
                                             #see https://github.com/symfony/AsseticBundle/issues/50
             apply_to: "\.less$"
         less:
