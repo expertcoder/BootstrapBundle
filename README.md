@@ -1,5 +1,8 @@
+![Freelance Banner](https://s3.eu-central-1.amazonaws.com/static.expertcoder.io/github-banner/banner.png)
+
 # Bootstrap Bundle
-###Symfony2 Bundle for Twitter Boostrap
+
+### Symfony2 Bundle for Twitter Boostrap
 
 At the moment, this bundle has one purpose. It will allow your allow LESS files in your
 application, to have access to the variables in Twitter Bootstrap's variables.less
